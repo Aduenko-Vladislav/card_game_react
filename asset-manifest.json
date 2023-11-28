@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.js": "/card_game_react/static/js/main.4f4fa779.js",
+    "main.js": "/card_game_react/static/js/main.c10cad2f.js",
     "static/media/bg.png": "/card_game_react/static/media/bg.6c48499f0fa39409ed3d.png",
+    "static/media/Logo.png": "/card_game_react/static/media/Logo.52a1bf9ccaa334cef499.png",
     "index.html": "/card_game_react/index.html",
-    "main.4f4fa779.js.map": "/card_game_react/static/js/main.4f4fa779.js.map"
+    "main.c10cad2f.js.map": "/card_game_react/static/js/main.c10cad2f.js.map"
   },
   "entrypoints": [
-    "static/js/main.4f4fa779.js"
+    "static/js/main.c10cad2f.js"
   ]
 }
