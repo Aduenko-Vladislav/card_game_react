@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Logo from "./components/Logo/Logo";
 
 const Container = styled.div`
   max-width: 1170px;
@@ -15,7 +16,7 @@ const App = () => {
   return (
     <Container>
       <Wrapper>
-        <h1>Card game</h1>
+        <Logo/>
       </Wrapper>
     </Container>
   );
