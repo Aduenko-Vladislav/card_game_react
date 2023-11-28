@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/card_game_react/static/js/main.4f4fa779.js",
+    "static/media/bg.png": "/card_game_react/static/media/bg.6c48499f0fa39409ed3d.png",
+    "index.html": "/card_game_react/index.html",
+    "main.4f4fa779.js.map": "/card_game_react/static/js/main.4f4fa779.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4f4fa779.js"
+  ]
+}
