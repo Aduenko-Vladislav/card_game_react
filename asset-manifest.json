@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/card_game_react/static/js/main.c10cad2f.js",
-    "static/media/bg.png": "/card_game_react/static/media/bg.6c48499f0fa39409ed3d.png",
-    "static/media/Logo.png": "/card_game_react/static/media/Logo.52a1bf9ccaa334cef499.png",
+    "main.js": "/card_game_react/static/js/main.b200aea9.js",
+    "static/media/bg.png": "/card_game_react/static/media/bg.af013bf81c9018da8287.png",
+    "static/media/Logo.png": "/card_game_react/static/media/Logo.51fc68ec0913ae769299.png",
     "index.html": "/card_game_react/index.html",
-    "main.c10cad2f.js.map": "/card_game_react/static/js/main.c10cad2f.js.map"
+    "main.b200aea9.js.map": "/card_game_react/static/js/main.b200aea9.js.map"
   },
   "entrypoints": [
-    "static/js/main.c10cad2f.js"
+    "static/js/main.b200aea9.js"
   ]
 }
