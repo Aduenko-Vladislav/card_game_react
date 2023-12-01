@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import Logo from "./components/Logo/Logo";
+import Name from "./components/Name/Name";
+import ButtonShuffle from "./components/ButtonShuffle/ButtonShuffle";
 
 const Container = styled.div`
   max-width: 1170px;
@@ -16,7 +18,8 @@ const App = () => {
   return (
     <Container>
       <Wrapper>
-        <Logo/>
+        <Logo />
+        <Name />
       </Wrapper>
     </Container>
   );

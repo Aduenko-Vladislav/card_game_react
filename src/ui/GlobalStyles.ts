@@ -37,10 +37,11 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     background-image: url(${Background});
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh
 }
 
 ol, ul {
