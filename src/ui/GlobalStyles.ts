@@ -41,7 +41,6 @@ body {
     background-image: url(${Background});
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh
 }
 
 ol, ul {

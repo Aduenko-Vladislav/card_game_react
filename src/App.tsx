@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import Logo from "./components/Logo/Logo";
 import Name from "./components/Name/Name";
-import ButtonShuffle from "./components/ButtonShuffle/ButtonShuffle";
+import { RootState } from "./store/store";
+import { useSelector } from "react-redux";
 
 const Container = styled.div`
   max-width: 1170px;
@@ -15,11 +16,20 @@ const Wrapper = styled.div`
 `;
 
 const App = () => {
+  const isGameActive = useSelector(
+    (state: RootState) => state.gameData.isGameActive
+  );
   return (
     <Container>
       <Wrapper>
-        <Logo />
-        <Name />
+        {isGameActive === "home" ? (
+          <>
+            <Logo />
+            <Name />
+          </>
+        ) : (
+          <> </>
+        )}
       </Wrapper>
     </Container>
   );
