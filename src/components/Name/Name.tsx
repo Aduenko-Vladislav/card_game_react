@@ -1,21 +1,28 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Input, Wrapper } from "./styles";
 import ButtonShuffle from "../ButtonShuffle/ButtonShuffle";
+import { useDispatch } from "react-redux";
+import { changeGameStatus, changeUserName } from "../../store/slices/gameData";
 
 const Name: React.FC = () => {
+  const dispatch = useDispatch()
   const [userName, setUserName] = useState<string>(() => {
     const storedName = sessionStorage.getItem("userName");
     return storedName || "";
   });
 
-  useEffect(() => {
-    sessionStorage.setItem("userName", userName);
-  }, [userName]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newName = e.target.value;
     setUserName(newName);
   };
+
+  const onClickButtonShuffle =() =>{
+   dispatch(changeUserName(userName));
+   dispatch(changeGameStatus("active"));
+   sessionStorage.setItem("userName", userName);
+  }
+
 
   return (
     <Wrapper>
@@ -25,7 +32,7 @@ const Name: React.FC = () => {
         value={userName}
         onChange={handleInputChange}
       />
-      <ButtonShuffle userName={userName} />
+      <ButtonShuffle isActive={userName} onClick ={onClickButtonShuffle}/>
     </Wrapper>
   );
 };

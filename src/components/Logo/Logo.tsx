@@ -1,7 +1,7 @@
 import {StyledLogo, LogoIcon, } from "./styles";
 import Logomark from "../../assets/img/Logo.png";
 
-const Logo = () => {
+const Logo: React.FC = () => {
   return (
     <StyledLogo>
         <LogoIcon src={Logomark} alt="logo"/>
