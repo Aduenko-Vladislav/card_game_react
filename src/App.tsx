@@ -3,6 +3,7 @@ import Logo from "./components/Logo/Logo";
 import Name from "./components/Name/Name";
 import { RootState } from "./store/store";
 import { useSelector } from "react-redux";
+import GameActive from "./components/GameActive/GameActive";
 
 const Container = styled.div`
   max-width: 1170px;
@@ -22,13 +23,19 @@ const App = () => {
   return (
     <Container>
       <Wrapper>
-        {isGameActive === "home" ? (
+        {isGameActive === "active" ? (
           <>
-            <Logo />
-            <Name />
+            <GameActive />
+          </>
+        ) : isGameActive === "finished" ? (
+          <>
+            <GameActive />
           </>
         ) : (
-          <> </>
+          <>
+            <Logo isHome={true}/>
+            <Name />
+          </>
         )}
       </Wrapper>
     </Container>
