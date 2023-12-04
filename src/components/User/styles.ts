@@ -15,4 +15,5 @@ export const NameUser = styled.h2`
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 45px;
 `;

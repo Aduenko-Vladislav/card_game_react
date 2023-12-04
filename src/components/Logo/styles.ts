@@ -5,7 +5,6 @@ interface StyledLogoProps {
 }
 
 const StyledLogo = styled.div`
-  padding: 100px 0 92px;
   display: flex;
   justify-content: center;
   align-items: center;
