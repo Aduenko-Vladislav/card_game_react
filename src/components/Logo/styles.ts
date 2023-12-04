@@ -10,4 +10,9 @@ const LogoIcon = styled.img`
   background-size: cover;
 `;
 
+
+
+
+
+
 export { StyledLogo, LogoIcon };

@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.name {
+  margin-bottom: 47px;
+  background-color: white;
+
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  border-radius: 10px;
+  border: 3px solid #378b44;
+}
+
+input::placeholder {
+  color: #000000;
+}
