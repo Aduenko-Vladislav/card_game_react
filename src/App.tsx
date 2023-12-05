@@ -6,6 +6,8 @@ import Username from "./components/StartPage/Username";
 import Computername from "./components/StartPage/Computername";
 import CardLogo from "./components/StartPage/Card";
 import CenterScore from "./components/StartPage/MainScore";
+import { useSelector } from "react-redux";
+import { RootState } from "./Store/store";
 
 const Container = styled.div`
   max-width: 1170px;
@@ -56,10 +58,14 @@ border-radius: 39px;
 `;
 
 const App = () => {
-  return (
-    <Container>
 
-        <UpBlock>
+  const isGameActive = useSelector((state: RootState) => state.gameData.isGameActive)
+  return (
+    
+<>
+      {isGameActive === "active" ? (
+        <>
+          <UpBlock>
           <Score />
           <Logo />
           <Score />
@@ -77,9 +83,21 @@ const App = () => {
           <Computername />
           <CardLogo />
         </CenterWrapperStyle>
-      </Block>
-    </Container>
+      </Block> 
+        </>
+      ) : isGameActive === "finish" ? (
+        <>
+           <Container/>
+        </>
+      ) : (
+      
+            <Name />
+  
+      )}
+    </>
   );
 };
 
+
 export default App;
+
