@@ -8,7 +8,11 @@ import GameActive from "./components/GameActive/GameActive";
 const Container = styled.div`
   max-width: 1170px;
   width: 100%;
+  height: 100vh;
+
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 `;
 
 const Wrapper = styled.div`
@@ -21,24 +25,24 @@ const App = () => {
     (state: RootState) => state.gameData.isGameActive
   );
   return (
-    <Container>
-      <Wrapper>
-        {isGameActive === "active" ? (
-          <>
-            <GameActive />
-          </>
-        ) : isGameActive === "finished" ? (
-          <>
-            <GameActive />
-          </>
-        ) : (
-          <>
-            <Logo isHome={true}/>
+    <>
+      {isGameActive === "active" ? (
+        <>
+          <GameActive />
+        </>
+      ) : isGameActive === "finished" ? (
+        <>
+          <GameActive />
+        </>
+      ) : (
+        <Container>
+          <Wrapper>
+            <Logo isHome={true} />
             <Name />
-          </>
-        )}
-      </Wrapper>
-    </Container>
+          </Wrapper>
+        </Container>
+      )}
+    </>
   );
 };
 

@@ -5,6 +5,7 @@ const StyledCenterScore = styled.div`
   flex-direction: column;
   border: 5px solid #fcea8b;
   border-radius: 37px;
+  margin-bottom: 60px;
 `;
 
 const ScoreBlock = styled.div`

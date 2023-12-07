@@ -8,5 +8,5 @@ export const StyledCard = styled.div`
 export const CardPic = styled.img`
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 240px;
+  width: 100%
 `;

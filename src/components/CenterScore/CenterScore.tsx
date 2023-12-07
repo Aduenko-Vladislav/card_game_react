@@ -1,13 +1,23 @@
-import { NumbersBlock, ScoreBlock, ScorePoint, StyledCenterScore } from "./styles";
+import {
+  NumbersBlock,
+  ScoreBlock,
+  ScorePoint,
+  StyledCenterScore,
+} from "./styles";
 
-const CenterScore = () => {
+interface userValueProps {
+  uservalue: number;
+  compvalue: number;
+}
+
+const CenterScore = ({ uservalue, compvalue }: userValueProps) => {
   return (
     <StyledCenterScore>
       <ScoreBlock>Score:</ScoreBlock>
       <NumbersBlock>
-        <ScorePoint>17</ScorePoint>
+        <ScorePoint>{uservalue}</ScorePoint>
         <ScorePoint>:</ScorePoint>
-        <ScorePoint>40</ScorePoint>
+        <ScorePoint>{compvalue}</ScorePoint>
       </NumbersBlock>
     </StyledCenterScore>
   );

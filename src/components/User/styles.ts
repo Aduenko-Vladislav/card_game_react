@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Icon = styled.img`
-  height: 50px;
+  height: 35px;
 `;
 
 export const NameUser = styled.h2`
@@ -15,5 +15,6 @@ export const NameUser = styled.h2`
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 45px;
 `;
