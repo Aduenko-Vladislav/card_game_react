@@ -1,15 +1,30 @@
 {
   "files": {
-    "main.js": "/card_game_react/static/js/main.a3ad98cc.js",
+    "main.js": "/card_game_react/static/js/main.92c50d3b.js",
     "static/media/bg.png": "/card_game_react/static/media/bg.af013bf81c9018da8287.png",
-    "static/media/card-back.jpg": "/card_game_react/static/media/card-back.4b35703e6039042597d8.jpg",
     "static/media/computerIcon.png": "/card_game_react/static/media/computerIcon.5702a215670ee8fc8d37.png",
     "static/media/icon.png": "/card_game_react/static/media/icon.00f690c7336ba9b9125a.png",
+    "static/media/Q-S-B.png": "/card_game_react/static/media/Q-S-B.571e9f73bfafa0d94f04.png",
+    "static/media/J-H-R.png": "/card_game_react/static/media/J-H-R.59c3b4d35164a606d792.png",
+    "static/media/Q-C-B.png": "/card_game_react/static/media/Q-C-B.9785af3b4c89b0c389d8.png",
+    "static/media/K-S-B.png": "/card_game_react/static/media/K-S-B.36f00240edb40979a172.png",
+    "static/media/Q-D-R.png": "/card_game_react/static/media/Q-D-R.4fed48dc21708fb2d938.png",
+    "static/media/K-H-R.png": "/card_game_react/static/media/K-H-R.2550bf753b5cc048fbfa.png",
+    "static/media/J-D-R.png": "/card_game_react/static/media/J-D-R.97180361eae96e6b583e.png",
+    "static/media/K-C-B.png": "/card_game_react/static/media/K-C-B.6792d3967e19b70c52b2.png",
+    "static/media/Q-H-R.png": "/card_game_react/static/media/Q-H-R.b401b88601176d05bcc5.png",
+    "static/media/J-S-B.png": "/card_game_react/static/media/J-S-B.0ae9575f32da3d5c86a1.png",
+    "static/media/K-D-R.png": "/card_game_react/static/media/K-D-R.434870354e44425ea720.png",
+    "static/media/card-back.jpg": "/card_game_react/static/media/card-back.50711118675c4032b028.jpg",
+    "static/media/J-C-B.png": "/card_game_react/static/media/J-C-B.56eea792d6e2ad7a6dc2.png",
     "static/media/Logo.png": "/card_game_react/static/media/Logo.51fc68ec0913ae769299.png",
+    "static/media/A-S-B.png": "/card_game_react/static/media/A-S-B.be4987de9655dcda91dd.png",
+    "static/media/10-C-B.png": "/card_game_react/static/media/10-C-B.7ecce97be07a9dba175f.png",
+    "static/media/10-S-B.png": "/card_game_react/static/media/10-S-B.ea1d712f519f6fd33c6c.png",
     "index.html": "/card_game_react/index.html",
-    "main.a3ad98cc.js.map": "/card_game_react/static/js/main.a3ad98cc.js.map"
+    "main.92c50d3b.js.map": "/card_game_react/static/js/main.92c50d3b.js.map"
   },
   "entrypoints": [
-    "static/js/main.a3ad98cc.js"
+    "static/js/main.92c50d3b.js"
   ]
 }
