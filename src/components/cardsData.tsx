@@ -14,8 +14,7 @@ export class CardModel {
 // new CardModel($1, $2, $3),
 
 export const cardsData: CardModel[] = [
-  
-  new CardModel(1, 1, "A-C-B"), 
+  new CardModel(1, 1, "A-C-B"),
   new CardModel(2, 1, "A-D-R"),
   new CardModel(3, 1, "A-H-R"),
   new CardModel(4, 1, "A-S-B"),
@@ -68,3 +67,7 @@ export const cardsData: CardModel[] = [
   new CardModel(51, 13, "K-H-R"),
   new CardModel(52, 13, "K-S-B"),
 ];
+
+export const cardGameWin = new CardModel(53, 0, "winCard");
+
+export const cardGameLost = new CardModel(53, 0, "lostCard");

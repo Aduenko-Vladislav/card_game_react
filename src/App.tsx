@@ -32,7 +32,7 @@ const App = () => {
         </>
       ) : isGameActive === "finished" ? (
         <>
-          <GameActive />
+           <GameActive />
         </>
       ) : (
         <Container>

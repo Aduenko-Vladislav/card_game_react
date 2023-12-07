@@ -20,6 +20,7 @@ const ScoreBlock = styled.div`
 
 const NumbersBlock = styled.div`
   display: flex;
+  justify-content: center;
   gap: 10px;
   padding: 0 47px 35px;
 `;
