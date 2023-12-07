@@ -33,6 +33,6 @@ export const WrapperUser = styled.div`
 export const WrapperCard = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 240px;
+  max-width: 259px;
   width: 100%;
 `;

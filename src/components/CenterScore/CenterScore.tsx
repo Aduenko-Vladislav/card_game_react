@@ -5,7 +5,7 @@ import {
   StyledCenterScore,
 } from "./styles";
 
-interface userValueProps {
+export interface userValueProps {
   uservalue: number;
   compvalue: number;
 }
