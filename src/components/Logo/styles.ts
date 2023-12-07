@@ -14,6 +14,7 @@ const LogoIcon = styled.img<StyledLogoProps>`
   background-size: cover;
   opacity: 1;
   width: ${({ isHome }) => (isHome ? "" : "323px")};
+  margin-bottom: ${({ isHome }) => (isHome ? "100px;" : "0")};
 `;
 
 export { StyledLogo, LogoIcon };

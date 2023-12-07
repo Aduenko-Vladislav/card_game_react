@@ -1,5 +1,16 @@
 import styled from "styled-components";
 
+export const Container = styled.div`
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+`;
+
+export const Wrapper = styled.div`
+  margin: 0 auto;
+  padding: 0 15px;
+`;
+
 export const WrapperHeader = styled.div`
   display: flex;
   justify-content: space-around;
@@ -21,6 +32,7 @@ export const WrapperUser = styled.div`
 
 export const WrapperCard = styled.div`
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
+  max-width: 240px;
+  width: 100%;
 `;
