@@ -5,24 +5,22 @@ import { useDispatch } from "react-redux";
 import { changeGameStatus, changeUserName } from "../../store/slices/gameData";
 
 const Name: React.FC = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const [userName, setUserName] = useState<string>(() => {
     const storedName = sessionStorage.getItem("userName");
     return storedName || "";
   });
-
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newName = e.target.value;
     setUserName(newName);
   };
 
-  const onClickButtonShuffle =() =>{
-   dispatch(changeUserName(userName));
-   dispatch(changeGameStatus("active"));
-   sessionStorage.setItem("userName", userName);
-  }
-
+  const onClickButtonShuffle = () => {
+    dispatch(changeUserName(userName));
+    dispatch(changeGameStatus("active"));
+    sessionStorage.setItem("userName", userName);
+  };
 
   return (
     <Wrapper>
@@ -32,7 +30,7 @@ const Name: React.FC = () => {
         value={userName}
         onChange={handleInputChange}
       />
-      <ButtonShuffle isActive={userName} onClick ={onClickButtonShuffle}/>
+      <ButtonShuffle isActive={userName} onClick={onClickButtonShuffle} />
     </Wrapper>
   );
 };
