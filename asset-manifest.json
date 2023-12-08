@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/card_game_react/static/js/main.8d55cd1f.js",
+    "main.js": "/card_game_react/static/js/main.f9aa843f.js",
     "static/media/bg.png": "/card_game_react/static/media/bg.af013bf81c9018da8287.png",
     "static/media/winCard.png": "/card_game_react/static/media/winCard.2861af8ebd3c736ed490.png",
     "static/media/computerIcon.png": "/card_game_react/static/media/computerIcon.5702a215670ee8fc8d37.png",
@@ -24,9 +24,9 @@
     "static/media/10-C-B.png": "/card_game_react/static/media/10-C-B.7ecce97be07a9dba175f.png",
     "static/media/10-S-B.png": "/card_game_react/static/media/10-S-B.ea1d712f519f6fd33c6c.png",
     "index.html": "/card_game_react/index.html",
-    "main.8d55cd1f.js.map": "/card_game_react/static/js/main.8d55cd1f.js.map"
+    "main.f9aa843f.js.map": "/card_game_react/static/js/main.f9aa843f.js.map"
   },
   "entrypoints": [
-    "static/js/main.8d55cd1f.js"
+    "static/js/main.f9aa843f.js"
   ]
 }
