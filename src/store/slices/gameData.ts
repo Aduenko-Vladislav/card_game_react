@@ -8,7 +8,7 @@ export interface GameDataState {
   isGameActive: gameStatus;
 }
 
-const initialState: GameDataState  = {
+const initialState: GameDataState = {
   userName: "",
   isGameActive: "home",
 };

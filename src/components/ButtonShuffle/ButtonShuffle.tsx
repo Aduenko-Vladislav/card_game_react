@@ -1,13 +1,14 @@
 import { Button } from "./styles";
 interface ButtonShuffleProps {
   isActive: string | boolean;
-  onClick: ()=>void;
+  onClick: () => void;
 }
 
-const ButtonShuffle = ({ isActive, onClick }:ButtonShuffleProps) => {
-  
+const ButtonShuffle = ({ isActive, onClick }: ButtonShuffleProps) => {
   return (
-      <Button disabled={!isActive} onClick={onClick} >Let's shuffle it!</Button>
+    <Button disabled={!isActive} onClick={onClick}>
+      Let's shuffle it!
+    </Button>
   );
 };
 

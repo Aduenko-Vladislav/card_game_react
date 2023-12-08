@@ -1,10 +1,11 @@
 import { Title } from "./styles";
 
-const Score: React.FC = () => {
-  return (
-    <Title> HighScore:</Title>
-  )
-  
+interface HighScoreProps {
+  highScore: string;
+}
+
+const Score = ({ highScore }: HighScoreProps) => {
+  return <Title> HighScore: {highScore}</Title>;
 };
 
 export default Score;
