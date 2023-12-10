@@ -8,6 +8,9 @@ import CardLogo from "./components/StartPage/Card";
 import CenterScore from "./components/StartPage/MainScore";
 import { useSelector } from "react-redux";
 import { RootState } from "./Store/store";
+import FinishCardLose from "./components/FinishPage/FinishCardLose";
+import FinishCardWin from "./components/FinishPage/FinishCardWin";
+import ButtonAgain from "./components/FinishPage/ButtonAgain";
 
 const Container = styled.div`
   max-width: 1170px;
@@ -87,7 +90,30 @@ const App = () => {
         </>
       ) : isGameActive === "finish" ? (
         <>
-           <Container/>
+        <>
+          <UpBlock>
+          <Score />
+          <Logo />
+          <Score />
+        </UpBlock>
+
+      <Block>
+        <CenterWrapperStyle>
+          <Username />
+          <FinishCardWin/>
+        </CenterWrapperStyle>
+        <CenterWrapperStyle>
+        <CenterScoreStyle>
+          <CenterScore />
+        </CenterScoreStyle>
+        <ButtonAgain />
+        </CenterWrapperStyle>
+        <CenterWrapperStyle>
+          <Computername />
+          <FinishCardLose/>
+        </CenterWrapperStyle>
+      </Block> 
+        </>
         </>
       ) : (
       

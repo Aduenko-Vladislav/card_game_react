@@ -10,7 +10,7 @@ export interface gameDataState {
   
   const initialState: gameDataState = {
     userName: "",
-    isGameActive: "home",
+    isGameActive: "finish",
   }
   
   export const gameDataSlice = createSlice({
