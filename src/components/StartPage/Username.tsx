@@ -2,12 +2,16 @@ import React from 'react'
 import { StyledUsername, UserIcon} from './UsernameStyles'
 import LogoIcon from "../../assets/img/icons1.png";
 
+interface UsernameProps {
+  username: string;
+}
 
-const Username = () => {
+
+const Username = ({username}:UsernameProps) => {
   return (
     <StyledUsername className='username'>
       <UserIcon src={LogoIcon} alt='UserIcon'/>
-      <p>Uladislav</p>
+      <p>{username}</p>
     </StyledUsername>
   )
 }

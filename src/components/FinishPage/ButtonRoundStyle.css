@@ -1,4 +1,4 @@
-.again {
+.round {
     padding: 23px 48px;
     margin-bottom: 50px;
     
@@ -14,9 +14,5 @@
   
     cursor: pointer;
   }
-  .again:disabled {
-    color: #2d7232;
-    background: #378b44 0% 0% no-repeat padding-box;
-    border: 5px solid #2d7232;
-  }
+
   

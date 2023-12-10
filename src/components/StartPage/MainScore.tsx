@@ -1,15 +1,22 @@
 import React from 'react'
 import { StyledMainScore, StyledNumbersScore } from './MainScoreStyles'
 
+interface valuesProps{
+  userScore: number,
+  compScore: number
+}
 
-const CenterScore = () => {
+const CenterScore = ({userScore,compScore}:valuesProps) => {
   return (<>
     <StyledMainScore>
     Score:
     </StyledMainScore>
     <StyledNumbersScore>
-    17:40
+    {userScore}
     </StyledNumbersScore>
+  <StyledNumbersScore>
+    {compScore}
+  </StyledNumbersScore>
     </>
   )
 }

@@ -2,9 +2,13 @@ import React from 'react'
 import { StyledScore } from './ScoreStyles'
 
 
-const Score = () => {
+interface ScoreProps {
+  score: string
+}
+
+const Score = ({score}:ScoreProps) => {
   return (
-    <StyledScore className='score'>Highscore: 980</StyledScore>
+    <StyledScore className='score'>Highscore: {score} </StyledScore>
   )
 }
 
